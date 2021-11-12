@@ -10,37 +10,58 @@ Credit: Eugene Yan (https://eugeneyan.com)
 
 1. [Python](#python)
 2. [Markdown](#markdown)
-3. [Mathematics of ML](#mathematics)
-4. [Forecasting](#forecasting)
-5. [Recommendation](#recommendation)
-6. [Search](#search)
-7. [Natural Language Processing](#natural-language-processing)
-8. [Sequence Modelling](#sequence-modelling)
-9. [Computer Vision](#computer-vision)
-10. [Reinforcement Learning](#reinforcement-learning)
-11. [Anomaly Detection](#anomaly-detection)
-12. [Knowledge Graphs](#knowledge-graphs)
-13. [Information Extraction](#information-extraction)
-14. [Weak Supervision](#weak-supervision)
-15. [MLOps](#mlops-platforms)
-16. [Explainable and Interpretable AI](#xai)
-17. [Ethics](#ethics)
-18. [Interviewing for Jobs](#interviewing)
-19. [Outreach](#outreach)
-20. [Industry Internships](#industry-internships)
+3. [Linux](#linux)
+4. [Version Control](#version-control)
+5. [Mathematics of ML](#mathematics)
+6. [Deep Learning](#deep-learning)
+7. [Forecasting](#forecasting)
+8. [Recommendation](#recommendation)
+9. [Search](#search)
+10. [Natural Language Processing](#natural-language-processing)
+11. [Sequence Modelling](#sequence-modelling)
+12. [Computer Vision](#computer-vision)
+13. [Reinforcement Learning](#reinforcement-learning)
+14. [Anomaly Detection](#anomaly-detection)
+15. [Knowledge Graphs](#knowledge-graphs)
+16. [Information Extraction](#information-extraction)
+17. [Weak Supervision](#weak-supervision)
+18. [MLOps](#mlops-platforms)
+19. [Explainable and Interpretable AI](#xai)
+20. [Ethics](#ethics)
+21. [Interviewing for Jobs](#interviewing)
+22. [Outreach](#outreach)
+23. [Industry Internships](#industry-internships)
+24. [Intro to AI for Beginners](#intro-to-ai-beginners)
+25. [Intro to AI for non-STEM](#intro-to-ai-non-stem)
 
 More to come!!
 
 
 ## Python
 - [Learn X in Y minutes](https://learnxinyminutes.com/docs/python/)
-- [Machine Learning in Python](https://www.springboard.com/learning-paths/machine-learning-python/)
+- [Machine Learning in Python](https://www.springboard.com/learning-paths/machine-learning-python/) `Springboard`
 
 ## Markdown
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) `GitHub`
+
+## Linux
+- [Linux Command Line Basics](https://www.udacity.com/course/linux-command-line-basics--ud595) `Udacity`
+- [Introduction to Linux](https://www.edx.org/course/introduction-to-linux) `Linux Foundation`
+
+## Version Control
+- [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) `HubSpot`
+- [Learn Git Branching](https://learngitbranching.js.org/)
+- [Git Cheat Sheet](https://training.github.com/) `GitHub`
 
 ## Mathematics
 - [Mathematics of Machine Learning](https://mml-book.github.io/)
+- [Computational Linear Algebra](https://www.fast.ai/2017/07/17/num-lin-alg/) `fast.ai`
+- [Mathematics of Machine Learning](https://ocw.mit.edu/courses/mathematics/18-657-mathematics-of-machine-learning-fall-2015/) `MIT`
+- [Mathematics for Machine Learning](https://www.coursera.org/specializations/mathematics-machine-learning) `Imperial College`
+
+## Deep Learning
+- [Deep Learning](https://mitpress.mit.edu/books/deep-learning) `MIT`
+- [Dive into Deep Learning](https://d2l.ai/) `Amazon`
 
 ## Forecasting
 - [Forecasting at Uber: An Introduction](https://eng.uber.com/forecasting-introduction/) `Uber`
@@ -313,12 +334,16 @@ More to come!!
 - [Tuning Model Performance](https://eng.uber.com/tuning-model-performance/) `Uber`
 
 # Xai
+- [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+- 
 
 
 
 # Ethics
-1. [Building Inclusive Products Through A/B Testing](https://engineering.linkedin.com/blog/2020/building-inclusive-products-through-a-b-testing) ([Paper](https://arxiv.org/pdf/2002.05819.pdf)) `LinkedIn`
-2. [LiFT: A Scalable Framework for Measuring Fairness in ML Applications](https://engineering.linkedin.com/blog/2020/lift-addressing-bias-in-large-scale-ai-applications) ([Paper](https://arxiv.org/pdf/2008.07433.pdf)) `LinkedIn`
+- [Building Inclusive Products Through A/B Testing](https://engineering.linkedin.com/blog/2020/building-inclusive-products-through-a-b-testing) ([Paper](https://arxiv.org/pdf/2002.05819.pdf)) `LinkedIn`
+- [LiFT: A Scalable Framework for Measuring Fairness in ML Applications](https://engineering.linkedin.com/blog/2020/lift-addressing-bias-in-large-scale-ai-applications) ([Paper](https://arxiv.org/pdf/2008.07433.pdf)) `LinkedIn`
+- [Ethics in AI and Data Science](https://www.edx.org/course/ethics-in-ai-and-data-science) `Linux Foundation`
+- [Ethics and governance of artificial intelligence for health](https://www.who.int/publications/i/item/9789240029200) `WHO`
 
 # Industry Lessons Learned
 - [Successes and Challenges in Adopting Machine Learning at Scale at a Global Bank](https://www.youtube.com/watch?v=QYQKG5OcwEI) `Rabobank`
@@ -335,3 +360,20 @@ More to come!!
 
 
 # Industry Internships
+
+
+# Intro to AI Beginners
+- [Machine Learning](https://www.coursera.org/learn/machine-learning) `Stanford`
+- [Introduction to Machine Learning](Introduction to Machine Learning Course) `Udacity`
+- [Artifical Intelligence](https://www.udacity.com/course/artificial-intelligence--ud954) `Georgia Tech`
+- [Secure and Private AI](https://www.udacity.com/course/secure-and-private-ai--ud185) `Facebook AI`
+- [Machine Learning](https://www.udacity.com/course/machine-learning--ud262) `Georgia Tech`
+- [Deep Learning](https://www.coursera.org/specializations/ai-foundations-for-everyone) `DeepLearning.ai`
+- [Introduction to Machine Learning](https://introduction-to-machine-learning.netlify.app/) `LMU`
+
+# Intro to AI Non-STEM
+- [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone) `DeepLearning.ai`
+- [Intro to Artificial Intelligence](https://www.udacity.com/course/knowledge-based-ai-cognitive-systems--ud409) `Udacity`
+- [Introduction to Artificial Intelligence](https://www.coursera.org/learn/machine-learning) `IBM`
+- [AI Foundations for Everyone](https://www.coursera.org/specializations/ai-foundations-for-everyone) `IBM`
+- [How artificial intelligence is transforming the world](https://www.brookings.edu/research/how-artificial-intelligence-is-transforming-the-world/) `Brookings`
