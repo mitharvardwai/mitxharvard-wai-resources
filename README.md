@@ -4,7 +4,7 @@ Curated ML/AI Resources for MITxHarvard Women in AI members.
 
 Have a suggestion to contribute? Please make a pull request (PR) or send an email to: <wai_exec@mit.edu>
 
-Credit: Eugene Yan (https://eugeneyan.com)
+Credits: Eugene Yan (https://eugeneyan.com), Suyash Shekhar (http://suyash.dev), Chris Dryden (http://chrisdryden.com)
 
 **Table of Contents**
 
@@ -25,14 +25,15 @@ Credit: Eugene Yan (https://eugeneyan.com)
 15. [Knowledge Graphs](#knowledge-graphs)
 16. [Information Extraction](#information-extraction)
 17. [Weak Supervision](#weak-supervision)
-18. [MLOps](#mlops-platforms)
-19. [Explainable and Interpretable AI](#xai)
+18. [MLOps](#mlops)
+19. [Explainable and Interpretable AI](#explainable-ai)
 20. [Ethics](#ethics)
 21. [Interviewing for Jobs](#interviewing)
 22. [Outreach](#outreach)
 23. [Industry Internships](#industry-internships)
-24. [Intro to AI for Beginners](#intro-to-ai-beginners)
-25. [Intro to AI for non-STEM](#intro-to-ai-non-stem)
+24. [Cheat Sheets](#cheat-sheets)
+25. [Intro to AI for Beginners](#intro-to-ai-beginners)
+26. [Intro to AI for non-STEM](#intro-to-ai-non-stem)
 
 More to come!!
 
@@ -43,6 +44,7 @@ More to come!!
 
 ## Markdown
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) `GitHub`
+- [Markdown Tutorial](https://www.markdowntutorial.com/)
 
 ## Linux
 - [Linux Command Line Basics](https://www.udacity.com/course/linux-command-line-basics--ud595) `Udacity`
@@ -62,6 +64,8 @@ More to come!!
 ## Deep Learning
 - [Deep Learning](https://mitpress.mit.edu/books/deep-learning) `MIT`
 - [Dive into Deep Learning](https://d2l.ai/) `Amazon`
+- [Deep Learning](https://www.coursera.org/specializations/ai-foundations-for-everyone) `DeepLearning.ai`
+- [Deep Learning Roadmap](https://github.com/instillai/deep-learning-roadmap)
 
 ## Forecasting
 - [Forecasting at Uber: An Introduction](https://eng.uber.com/forecasting-introduction/) `Uber`
@@ -74,6 +78,7 @@ More to come!!
 - [Managing Supply and Demand Balance Through Machine Learning](https://doordash.engineering/2021/06/29/managing-supply-and-demand-balance-through-machine-learning/) `DoorDash`
 - [Automatic Forecasting using Prophet, Databricks, Delta Lake and MLflow](https://www.youtube.com/watch?v=TkcpjnLh690) ([Paper](https://peerj.com/preprints/3190.pdf), [Code](https://github.com/facebook/prophet)) `Atlassian`
 - [Greykite: A flexible, intuitive, and fast forecasting library](https://engineering.linkedin.com/blog/2021/greykite--a-flexible--intuitive--and-fast-forecasting-library) `LinkedIn`
+
 
 ## Recommendation
 - [Amazon.com Recommendations: Item-to-Item Collaborative Filtering](https://ieeexplore.ieee.org/document/1167344) ([Paper](https://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf)) `Amazon`
@@ -139,6 +144,7 @@ More to come!!
 - [How We Built a Matchmaking Algorithm to Cross-Sell Products](https://www.gojek.io/blog/how-we-built-a-matchmaking-algorithm-to-cross-sell-products) `Gojek`
 - [On YouTube's Recommendation System](https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/) `YouTube`
 
+
 ## Search
 - [Amazon Search: The Joy of Ranking Products](https://www.amazon.science/publications/amazon-search-the-joy-of-ranking-products) ([Paper](https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf), [Video](https://www.youtube.com/watch?v=NLrhmn-EZ88), [Code](https://github.com/dariasor/TreeExtra)) `Amazon`
 - [Why Do People Buy Seemingly Irrelevant Items in Voice Product Search?](https://www.amazon.science/publications/why-do-people-buy-irrelevant-items-in-voice-product-search) ([Paper](https://assets.amazon.science/f7/48/0562b2c14338a0b76ccf4f523fa5/why-do-people-buy-irrelevant-items-in-voice-product-search.pdf)) `Amazon`
@@ -191,6 +197,7 @@ More to come!!
 - [Towards Personalized and Semantic Retrieval for E-commerce Search via Embedding Learning](https://arxiv.org/abs/2006.02282) ([Paper](https://arxiv.org/pdf/2006.02282.pdf)) `JD`
 - [MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search](http://research.baidu.com/Public/uploads/5d12eca098d40.pdf) `Baidu`
 - [Pre-trained Language Model based Ranking in Baidu Search](https://arxiv.org/abs/2105.11108) ([Paper](https://arxiv.org/pdf/2105.11108.pdf)) `Baidu`
+
 
 ## Natural Language Processing
 - [Abusive Language Detection in Online User Content](https://dl.acm.org/doi/10.1145/2872427.2883062) ([Paper](http://www.yichang-cs.com/yahoo/WWW16_Abusivedetection.pdf)) `Yahoo`
@@ -261,6 +268,7 @@ More to come!!
 
 
 ## Reinforcement Learning
+- [Practical Reinforcement Learning](https://github.com/yandexdataschool/Practical_RL) `Yandex`
 - [Deep Reinforcement Learning for Sponsored Search Real-time Bidding](https://arxiv.org/abs/1803.00259) ([Paper](https://arxiv.org/pdf/1803.00259.pdf)) `Alibaba`
 - [Dynamic Pricing on E-commerce Platform with Deep Reinforcement Learning](https://arxiv.org/abs/1912.02572) ([Paper](https://arxiv.org/pdf/1912.02572.pdf)) `Alibaba`
 - [Budget Constrained Bidding by Model-free Reinforcement Learning in Display Advertising](https://arxiv.org/abs/1802.08365) ([Paper](https://arxiv.org/pdf/1802.08365.pdf)) `Alibaba`
@@ -332,46 +340,89 @@ More to come!!
 - [Rules of Machine Learning: Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml) `Google`
 - [Continuous Integration and Deployment for Machine Learning Online Serving and Models](https://eng.uber.com/continuous-integration-deployment-ml/) `Uber`
 - [Tuning Model Performance](https://eng.uber.com/tuning-model-performance/) `Uber`
-
-# Xai
-- [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+- [Awesome MLOps](https://github.com/visenger/awesome-mlops)
 - 
+## Explainable AI
+- [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+- [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead](https://www.nature.com/articles/s42256-019-0048-x) `Nature`
+- [Alibi Explain](https://docs.seldon.io/projects/alibi/en/stable/index.html) `Seldon`
+- [Model Interpretability for Pytorch](https://captum.ai/) `Captum`
+- [dalex](https://github.com/ModelOriented/DrWhy/blob/master/README.md) `DrWhy`
 
 
-
-# Ethics
+## Ethics
+- [MIT AI Ethics Reading Group](https://mitaiethics.github.io/resources/) `MIT`
+- [Explore AI Ethics](https://exploreaiethics.com/)
+- [AI Ethics Resources](https://www.fast.ai/2018/09/24/ai-ethics-resources/) `fast.ai'`
+- [Ethical AI Resources](https://ethicalairesources.com/)
+- [Responsible AI Resources](https://www.microsoft.com/en-us/ai/responsible-ai-resources) `Microsoft`
+- [A Practical Guide to Building Ethical AI](https://hbr.org/2020/10/a-practical-guide-to-building-ethical-ai) `HBR`
 - [Building Inclusive Products Through A/B Testing](https://engineering.linkedin.com/blog/2020/building-inclusive-products-through-a-b-testing) ([Paper](https://arxiv.org/pdf/2002.05819.pdf)) `LinkedIn`
 - [LiFT: A Scalable Framework for Measuring Fairness in ML Applications](https://engineering.linkedin.com/blog/2020/lift-addressing-bias-in-large-scale-ai-applications) ([Paper](https://arxiv.org/pdf/2008.07433.pdf)) `LinkedIn`
 - [Ethics in AI and Data Science](https://www.edx.org/course/ethics-in-ai-and-data-science) `Linux Foundation`
 - [Ethics and governance of artificial intelligence for health](https://www.who.int/publications/i/item/9789240029200) `WHO`
 
-# Industry Lessons Learned
+
+## Industry Lessons Learned
 - [Successes and Challenges in Adopting Machine Learning at Scale at a Global Bank](https://www.youtube.com/watch?v=QYQKG5OcwEI) `Rabobank`
 - [Challenges in Deploying Machine Learning: a Survey of Case Studies](https://arxiv.org/abs/2011.09926) ([Paper](https://arxiv.org/pdf/2011.09926.pdf)) `Cambridge`
 - [The problem with AI developer tools for enterprises](https://towardsdatascience.com/the-problem-with-ai-developer-tools-for-enterprises-and-what-ikea-has-to-do-with-it-b26277841661) `Databricks`
 - [Building Scalable and Performant Marketing ML Systems at Wayfair](https://www.aboutwayfair.com/careers/tech-blog/building-scalable-and-performant-marketing-ml-systems-at-wayfair) `Wayfair`
 - [On Challenges in Machine Learning Model Management](http://sites.computer.org/debull/A18dec/p5.pdf) `Amazon`
+- [Deep Learning in Production](https://github.com/ahkarami/Deep-Learning-in-Production)
 
 
-# Interviewing
+## Interviewing
+- [ML Interview Study Plan](https://github.com/khangich/machine-learning-interview)
+- [An Enlightening Guide to Machine Learning Interviews](https://github.com/alirezadir/machine-learning-interview-enlightener)
+- [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
+- [Coding Interview University](https://github.com/jwasham/coding-interview-university)
+- [Awesome Interview Questions](https://github.com/DopplerHQ/awesome-interview-questions) `Doppler`
 
 
-# Outreach
+## Outreach
+- [Boston After School and Beyond](https://bostonbeyond.org/approach/innovation/stem/)
+- [Outreachy](https://www.outreachy.org/) `Outreachy`
+- [NPower](https://www.npower.org/get-involved/) `NPower`
+- [Hour of Code](https://code.org/) 
+- [Volunteer for Code for Democracy](https://codefordemocracy.org/volunteer/)
 
 
-# Industry Internships
+## Industry Internships
+- [Summer 2022 Tech Internships](https://github.com/pittcsc/Summer2022-Internships) `Pitt CSC`
+- [Tips for Computer Science Internship Interviews](https://louisrli.github.io/blog/2014/01/18/tips-for-computer-science-internship-interviews/)
+- [How to Land a Top-notch Tech Internship — and a Tech Job — While You’re Still in School](https://www.freecodecamp.org/news/how-to-land-a-top-notch-tech-job-as-a-student-5c97fec82f3d/) `FreeCodeCamp`
+- [How to Talk About Your Side Projects](https://www.freecodecamp.org/news/how-to-talk-about-your-side-projects-18b96f192817/#.egwz2u3jl) `FreeCodeCamp`
+- [Singapore Tech Internships](https://github.com/sushinoya/singapore-tech-internships)
+- [Canadian Tech Internships for Summer 2022](https://github.com/ChrisDryden/Canadian-Tech-Internships-Summer-2022)
+- [Interships - What you need to know](https://www.levels.fyi/internships/)
+- [Playing the Internship Game](https://evykassirer.github.io/playing-the-internship-game/)
 
 
-# Intro to AI Beginners
+## Cheat Sheets
+- [PySpark Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/acfa4325-1d43-4542-8ce4-bea2d287db10) `Datacamp`
+- [Pandas Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/f04456d7-8e61-482f-9cc9-da6f7f25fc9b) `Datacamp`
+- [Numpy Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/ba1fe95a-8b70-4d2f-95b0-bc954e9071b0) `Datacamp`
+- [Keras Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/af9bb467-170d-41c9-a0bd-26e675384c4e) `Datacamp`
+- [Matplotlib Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/e1a8f39d-71ad-4d13-9a6b-618fe1b8c9e9) `Datacamp`
+- [Scikit-learn Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/eb807da5-dce5-4b97-a54d-74e89f14266b) `Datacamp`
+- [Seaborn Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/263130e2-2c92-4348-a356-9ed9b5034247) `Datacamp`
+- [SpaCy Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/b5685b85-c4de-4987-926d-b999d0f5a8b6) `Datacamp`
+- [SciPy Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/dfdb6d58-e044-4b38-bab3-5de0b825909b) `Datacamp`
+
+
+## Intro to AI Beginners
 - [Machine Learning](https://www.coursera.org/learn/machine-learning) `Stanford`
+- [ML for Beginners](https://github.com/microsoft/ML-For-Beginners) `Microsoft`
+- [ML Glossary](https://ml-cheatsheet.readthedocs.io/en/latest/) `Cruise`
 - [Introduction to Machine Learning](Introduction to Machine Learning Course) `Udacity`
 - [Artifical Intelligence](https://www.udacity.com/course/artificial-intelligence--ud954) `Georgia Tech`
 - [Secure and Private AI](https://www.udacity.com/course/secure-and-private-ai--ud185) `Facebook AI`
 - [Machine Learning](https://www.udacity.com/course/machine-learning--ud262) `Georgia Tech`
-- [Deep Learning](https://www.coursera.org/specializations/ai-foundations-for-everyone) `DeepLearning.ai`
 - [Introduction to Machine Learning](https://introduction-to-machine-learning.netlify.app/) `LMU`
 
-# Intro to AI Non-STEM
+
+## Intro to AI Non-STEM
 - [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone) `DeepLearning.ai`
 - [Intro to Artificial Intelligence](https://www.udacity.com/course/knowledge-based-ai-cognitive-systems--ud409) `Udacity`
 - [Introduction to Artificial Intelligence](https://www.coursera.org/learn/machine-learning) `IBM`
